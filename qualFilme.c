@@ -4,8 +4,6 @@ int main(int argc, char **argv) {
 
     node *arv;
 
-    printf("Hello gamer!\n");
-
     //Inicializa a raiz da arvore
     if ((arv = criaNode()) == NULL) {
         printf("Erro na criacao da arvore\n");
